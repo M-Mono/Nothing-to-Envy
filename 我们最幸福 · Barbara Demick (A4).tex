@@ -1,0 +1,58 @@
+\input{./Layouts/Preamble_A4}
+
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=4cm,bottom=3cm,foot=4cm}
+
+\begin{document}
+	\frontmatter
+	\begin{figure}[ht]
+		\begin{center}
+			\includepdf[width=\paperwidth,height=\paperheight]{Frontmatter.jpg}
+		\end{center}
+	\end{figure}
+	\newpage
+	\begin{center}
+		\phantom {placeholder}
+	\vspace{5cm}
+	{\Huge 我们最幸福}\\
+	\vspace{2cm}
+	{\Large Barbara Demick}
+	\end{center}
+	\newpage
+	{\color{TEXTColor}
+		\begin{multicols}{2}
+			\tableofcontents
+		\end{multicols}
+		\newpage
+		\mainmatter
+			\include{./Chapters/00}
+			\include{./Chapters/01}
+			\include{./Chapters/02}
+			\include{./Chapters/03}
+			\include{./Chapters/04}
+			\include{./Chapters/05}
+			\include{./Chapters/06}
+			\include{./Chapters/07}
+			\include{./Chapters/08}
+			\include{./Chapters/09}
+			\include{./Chapters/10}
+			\include{./Chapters/11}
+			\include{./Chapters/12}
+			\include{./Chapters/13}
+			\include{./Chapters/14}
+			\include{./Chapters/15}
+			\include{./Chapters/16}
+			\include{./Chapters/17}
+			\include{./Chapters/18}
+			\include{./Chapters/19}
+			\include{./Chapters/20}
+			\include{./Chapters/21}
+			\include{./Chapters/22}
+		\backmatter
+		{\color{TEXTColor}
+			\begin{figure}[ht]
+				\begin{center}
+					\includepdf[height=\paperheight]{Backmatter.jpg}
+				\end{center}
+			\end{figure}
+\end{document}

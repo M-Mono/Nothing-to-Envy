@@ -1,11 +1,11 @@
-\documentclass[oneside,openright,headings=optiontohead]{scrbook}
+\documentclass[oneside,openright,headings=optiontohead]{book}
 \renewcommand{\baselinestretch}{1.3}  %行間距倍率
 \columnsep 7mm
 %\renewcommand\thepage{}
 
 
 \usepackage[
-a4paper=true,
+%a4paper=true,
 %CJKbookmarks,
 unicode=true,
 bookmarksnumbered,
@@ -45,12 +45,19 @@ pdfcreator={https://m-mono.github.io}
 \setlength{\parindent}{2.0em}
 
 %正文字体
-\setCJKmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
-\setCJKsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
-\setCJKmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
-\setmainfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
-\setsansfont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
-\setmonofont[Path=Fonts/]{SourceHanSansCN-Normal.otf}
+\setCJKmainfont[Path=Fonts/,
+BoldFont={方正仿宋_GBK.ttf},
+ItalicFont={方正仿宋_GBK.ttf},
+BoldItalicFont={方正仿宋_GBK.ttf},
+SlantedFont={方正仿宋_GBK.ttf},
+BoldSlantedFont={方正仿宋_GBK.ttf},
+SmallCapsFont={方正仿宋_GBK.ttf}
+]{方正仿宋_GBK.ttf}
+\setCJKsansfont[Path=Fonts/]{方正仿宋_GBK.ttf}
+\setCJKmonofont[Path=Fonts/]{方正仿宋_GBK.ttf}
+\setmainfont[Path=Fonts/]{方正仿宋_GBK.ttf}
+\setsansfont[Path=Fonts/]{方正仿宋_GBK.ttf}
+\setmonofont[Path=Fonts/]{方正仿宋_GBK.ttf}
 
 
 % 頁面及文字顏色

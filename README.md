@@ -27,6 +27,8 @@ Barbara Demick
 
 + Fonts
   - [方正仿宋_GBK 5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=128)
+  - [Font Awesome 4.70](https://github.com/FortAwesome/Font-Awesome)
+  - [EyesAsia 1.100](https://github.com/haoyuns/EyesAsia)
 
 
 + Editor

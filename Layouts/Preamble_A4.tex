@@ -74,13 +74,13 @@ SmallCapsFont={方正仿宋_GBK.ttf}
 
 \usepackage{multicol}
 
-\usepackage{amsmath}
-
 \makeindex
 \renewcommand{\contentsname}{{我们最幸福}}
 \usepackage{fancyhdr} % 設置頁眉頁腳
 \pagestyle{fancy}
-%\fancyhf{} % 清空當前設置
+\addtolength{\headwidth}{\marginparsep}
+%\addtolength{\headwidth}{\marginparwidth}
+\fancyhf{} % 清空當前設置
 \renewcommand{\headrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
 \renewcommand{\footrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
 

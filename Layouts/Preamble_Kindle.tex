@@ -67,7 +67,7 @@ SmallCapsFont={方正仿宋_GBK.ttf}
 % 頁面及文字顏色
 \usepackage{xcolor}
 \definecolor{TEXTColor}{RGB}{50,50,50} % TEXT Color
-\definecolor{PinYinColor}{RGB}{130,130,130} % TEXT Color
+\definecolor{PinYinColor}{RGB}{180,180,180} % TEXT Color
 \definecolor{NOTEXTColor}{RGB}{0,0,0} % No TEXT Color
 \definecolor{BGColor}{RGB}{240,240,240} % BG Color
 \definecolor{Gray}{RGB}{246,246,246}
@@ -79,7 +79,9 @@ SmallCapsFont={方正仿宋_GBK.ttf}
 \renewcommand{\contentsname}{{我们最幸福}}
 \usepackage{fancyhdr} % 設置頁眉頁腳
 \pagestyle{fancy}
-%\fancyhf{} % 清空當前設置
+\addtolength{\headwidth}{\marginparsep}
+%\addtolength{\headwidth}{\marginparwidth}
+\fancyhf{} % 清空當前設置
 \renewcommand{\headrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
 \renewcommand{\footrulewidth}{0pt}  %頁眉線寬，設為0可以去頁眉線
 

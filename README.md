@@ -18,22 +18,23 @@ Barbara Demick
 编译环境：
 
 + Apple macOS
-  - [MacTeX / 2016](https://www.tug.org/mactex/)
+  - [MacTeX /2016](https://www.tug.org/mactex/)
 
 
 + GNU/Linux & Microsoft Windows
-  - [TeX Live / 2016](https://www.tug.org/texlive/)
+  - [TeX Live /2016](https://www.tug.org/texlive/)
 
 
 + Fonts
-  - [方正仿宋_GBK / 5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=128)
-  - [Font Awesome / 4.70](https://github.com/FortAwesome/Font-Awesome)
-  - [EyesAsia / 1.100](https://github.com/haoyuns/EyesAsia)
-  - [Adobe Source Sans Pro / 1.075](https://github.com/adobe-fonts/source-sans-pro)
+  - [方正仿宋简体 /5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=128)
+  - [方正书宋简体 /5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=151)
+  - [Font Awesome /4.70](https://github.com/FortAwesome/Font-Awesome)
+  - [EyesAsia /1.100](https://github.com/haoyuns/EyesAsia)
+  - [Adobe Source Sans Pro /1.075](https://github.com/adobe-fonts/source-sans-pro)
 
 
 + Editor
-  - [TeXstudio / 2.12.2](http://texstudio.sourceforge.net/)
+  - [TeXstudio /2.12.2](http://texstudio.sourceforge.net/)
 
-  
+
 + XeLaTeX 编译 PDF 1.7 版本使用参数 --output-driver="xdvipdfmx -q -E -V 7"

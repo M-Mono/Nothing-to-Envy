@@ -18,11 +18,11 @@ Barbara Demick
 编译环境：
 
 + Apple macOS
-  - [MacTeX /2016](https://www.tug.org/mactex/)
+  - [MacTeX /2017](https://www.tug.org/mactex/)
 
 
 + GNU/Linux & Microsoft Windows
-  - [TeX Live /2016](https://www.tug.org/texlive/)
+  - [TeX Live /2017](https://www.tug.org/texlive/)
 
 
 + Fonts

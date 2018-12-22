@@ -1,5 +1,5 @@
 # Nothing to Envy 我们最幸福
-Barbara Demick
+Barbara Demick 著
 
 ---
 2001年我被派往首尔，作为《洛杉矶时报》(Los Angeles Times)的特派记者，报导区域涵盖北朝鲜及南韩。在当时，作为一个美国记者，访问北朝鲜是非常困难的。而且，即使千方百计得以访问北朝鲜，我发现要完成一个报导也几乎是件不可能的事情。
@@ -18,23 +18,22 @@ Barbara Demick
 编译环境：
 
 + Apple macOS
-  - [MacTeX /2017](https://www.tug.org/mactex/)
+  - [MacTeX /2018](https://www.tug.org/mactex/)
 
 
 + GNU/Linux & Microsoft Windows
-  - [TeX Live /2017](https://www.tug.org/texlive/)
+  - [TeX Live /2018](https://www.tug.org/texlive/)
+    - Microsoft Windows 因系统 UTF8 支持问题，需要将目录、“我们最幸福 · Barbara Demick (Kindle).tex”及“我们最幸福 · Barbara Demick (A4).tex” 两个文件重命名为英文且无特殊字符后才能正确编译。
 
 
 + Fonts
-  - [Adobe Source Sans Pro /1.075](https://github.com/adobe-fonts/source-sans-pro)
+  - [Adobe Source Sans Pro /2.040](https://github.com/adobe-fonts/source-sans-pro)
   - [EyesAsia /1.100](https://github.com/haoyuns/EyesAsia)
-  - [Font Awesome /4.70](https://github.com/FortAwesome/Font-Awesome)
+  - [Font Awesome Free /4.70](https://github.com/FortAwesome/Font-Awesome)
   - [方正仿宋简体 /5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=128)
   - [方正书宋简体 /5.30](https://www.foundertype.com/index.php/FontInfo/index.html?id=151)
 
 
 + Editor
-  - [TeXstudio /2.12.6](http://texstudio.sourceforge.net/)
-
-
-+ XeLaTeX 编译 PDF 1.7 版本使用参数 --output-driver="xdvipdfmx -q -E -V 7"
+  - [TeXstudio /2.12.14](https://www.texstudio.org/)
+    - XeLaTeX 编译 PDF 1.7 版本使用额外编译参数 **--output-driver="xdvipdfmx -q -E -V 7"**。

@@ -1,6 +1,10 @@
+% !TeX root
+% !TEX encoding = UTF-8 Unicode
+% !TeX program = xelatex -synctex=1 -interaction=nonstopmode --output-driver="xdvipdfmx -q -E -V 7" %.tex
+
 \input{./Layouts/Preamble_Kindle}
 
-\usepackage[papersize={9cm,12.2cm}]{geometry} % Kindle Format
+\usepackage[papersize={126.4mm, 168.0mm}]{geometry} % Kindle Format
 \geometry{left=1.3cm,right=1.3cm,top=2cm,bottom=1cm,foot=4cm}
 \newcommand{\Icon}{\fontsize{300pt}{\baselineskip}\selectfont}
 
@@ -8,14 +12,14 @@
 \setcounter{paracolNo}{1}
 
 \begin{document}
-	\frontmatter
-	\begin{figure}[ht]
-		\begin{center}
-			\includepdf[width=\paperwidth]{Frontmatter.jpg}
-		\end{center}
-	\end{figure}
-	\newpage
+\frontmatter
+\begin{figure}[ht]
 	\begin{center}
+		\includepdf[width=\paperwidth]{Frontmatter.jpg}
+	\end{center}
+\end{figure}
+\newpage
+\begin{center}
 	\phantom {placeholder}
 	\vspace{-18mm}
 	\textcolor{Gray}{\Icon {\EA n}}\\
@@ -23,41 +27,41 @@
 	{\Huge 我们最幸福}\\
 	\vspace{3mm}
 	{\Large Barbara Demick}
+\end{center}
+\newpage
+\color{TEXTColor}
+\tableofcontents
+\newpage
+\mainmatter
+\include{./Chapters/00_0}
+\include{./Chapters/00_1}
+\include{./Chapters/01}
+\include{./Chapters/02}
+\include{./Chapters/03}
+\include{./Chapters/04}
+\include{./Chapters/05}
+\include{./Chapters/06}
+\include{./Chapters/07}
+\include{./Chapters/08}
+\include{./Chapters/09}
+\include{./Chapters/10}
+\include{./Chapters/11}
+\include{./Chapters/12}
+\include{./Chapters/13}
+\include{./Chapters/14}
+\include{./Chapters/15}
+\include{./Chapters/16}
+\include{./Chapters/17}
+\include{./Chapters/18}
+\include{./Chapters/19}
+\include{./Chapters/20}
+\include{./Chapters/21}
+\include{./Chapters/22}
+\backmatter
+{\color{TEXTColor}
+\begin{figure}[ht]
+	\begin{center}
+		\includepdf[height=\paperheight]{Backmatter.jpg}
 	\end{center}
-	\newpage
-		\color{TEXTColor}
-		\tableofcontents
-	\newpage
-		\mainmatter
-			\include{./Chapters/00}
-			\include{./Chapters/000}
-			\include{./Chapters/01}
-			\include{./Chapters/02}
-			\include{./Chapters/03}
-			\include{./Chapters/04}
-			\include{./Chapters/05}
-			\include{./Chapters/06}
-			\include{./Chapters/07}
-			\include{./Chapters/08}
-			\include{./Chapters/09}
-			\include{./Chapters/10}
-			\include{./Chapters/11}
-			\include{./Chapters/12}
-			\include{./Chapters/13}
-			\include{./Chapters/14}
-			\include{./Chapters/15}
-			\include{./Chapters/16}
-			\include{./Chapters/17}
-			\include{./Chapters/18}
-			\include{./Chapters/19}
-			\include{./Chapters/20}
-			\include{./Chapters/21}
-			\include{./Chapters/22}
-		\backmatter
-		{\color{TEXTColor}
-			\begin{figure}[ht]
-				\begin{center}
-					\includepdf[height=\paperheight]{Backmatter.jpg}
-				\end{center}
-			\end{figure}
+\end{figure}
 \end{document}

@@ -1,4 +1,6 @@
-\documentclass[oneside,openright,headings=optiontohead]{book}
+\documentclass[a4paper,10pt,twoside,openright]{book} % Add option final to remove watermark
+\special{pdf:encrypt ownerpw (NothingtoEnvy) userpw () length 256 perm 2048} % 2052 for print, 2048 for all disabled
+
 \renewcommand{\baselinestretch}{1.0}  %行間距倍率
 \columnsep 7mm
 \usepackage{setspace}
@@ -47,22 +49,22 @@ pdfcreator={https://m-mono.github.io}
 
 %正文字体
 \setCJKmainfont[Path=Fonts/,
-BoldFont={方正仿宋简体.ttf},
-ItalicFont={方正书宋简体.ttf},
-BoldItalicFont={方正仿宋简体.ttf},
-SlantedFont={方正仿宋简体.ttf},
-BoldSlantedFont={方正仿宋简体.ttf},
-SmallCapsFont={方正仿宋简体.ttf}
-]{方正仿宋简体.ttf}
-\setCJKsansfont[Path=Fonts/]{方正仿宋简体.ttf}
-\setCJKmonofont[Path=Fonts/]{方正仿宋简体.ttf}
-\setmainfont[Path=Fonts/]{方正仿宋简体.ttf}
-\setsansfont[Path=Fonts/]{方正仿宋简体.ttf}
-\setmonofont[Path=Fonts/]{方正仿宋简体.ttf}
+BoldFont={FZFangSong-Z02S.ttf},
+ItalicFont={FZShuSong-Z01S.ttf},
+BoldItalicFont={FZFangSong-Z02S.ttf},
+SlantedFont={FZFangSong-Z02S.ttf},
+BoldSlantedFont={FZFangSong-Z02S.ttf},
+SmallCapsFont={FZFangSong-Z02S.ttf}
+]{FZFangSong-Z02S.ttf}
+\setCJKsansfont[Path=Fonts/]{FZFangSong-Z02S.ttf}
+\setCJKmonofont[Path=Fonts/]{FZFangSong-Z02S.ttf}
+\setmainfont[Path=Fonts/]{FZFangSong-Z02S.ttf}
+\setsansfont[Path=Fonts/]{FZFangSong-Z02S.ttf}
+\setmonofont[Path=Fonts/]{FZFangSong-Z02S.ttf}
 % Icon 字体
-\newfontfamily{\FA}[Path=Fonts/]{FontAwesome.otf} %License: SIL OFL 1.1
 \newfontfamily{\EA}[Path=Fonts/]{EyesAsia-Regular.otf} %License: MIT
 \newfontfamily{\EN}[Path=Fonts/]{SourceSansPro-ExtraLightIt.otf} %License: SIL OFL 1.1
+\usepackage{fontawesome5}
 
 
 % 頁面及文字顏色
